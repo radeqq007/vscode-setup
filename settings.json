@@ -1,0 +1,45 @@
+{
+  // Font settings
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 13,
+
+  // Prettier settings
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.singleQuote": true,
+  "prettier.arrowParens": "avoid",
+
+  // Workbench settings
+  "workbench.layoutControl.enabled": false,
+  "workbench.iconTheme": "eq-material-theme-icons",
+  "workbench.colorTheme": "31d5574d-f56b-408f-81dc-9d44feeb62c2",
+  "workbench.activityBar.location": "bottom",
+  "workbench.sideBar.location": "right",
+  "workbench.statusBar.visible": false,
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 4,
+  "workbench.settings.openDefaultKeybindings": true,
+  "window.commandCenter": false,
+
+  // Editor settings
+  "editor.formatOnSave": true,
+  "editor.padding.top": 2,
+  "editor.suggest.insertMode": "replace",
+  "editor.codeActionsOnSave": {
+    "source.sortImports": "always"
+  },
+  "editor.lineNumbers": "off",
+  "editor.indentSize": "tabSize",
+  "editor.tabCompletion": "on",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+
+  // Custom css
+  "vscode_custom_css.imports": [
+    "file:C:/Users/Radek/AppData/Roaming/Code/User/custom/style.css"
+  ],
+  "editor.minimap.enabled": false,
+  "window.menuBarVisibility": "compact"
+}
